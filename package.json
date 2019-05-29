@@ -4,8 +4,9 @@
   "main": "server.js",
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
-    "start": "next start"
+    "build": "./node_modules/next/dist/bin/next build",
+    "heroku-postbuild": "./node_modules/next/dist/bin/next build",
+    "start": "node server.js"
   },
   "engines": {
     "node": "10.x"

@@ -20,7 +20,7 @@ class Index extends React.Component {
   }
 
   render () {
-    console.log('this.props ', this.props);
+    // console.log('this.props ', this.props);
     return <Main cards={this.props.cards}/>
   }
 }

@@ -843,7 +843,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Applications/XAMPP/xamppfiles/htdocs/lynda/reactServerSide/with-redux-wrapper-app/pages/index.js";
 
 
 
@@ -872,14 +871,9 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      console.log('this.props ', this.props);
+      // console.log('this.props ', this.props);
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_Main__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        cards: this.props.cards,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        cards: this.props.cards
       });
     }
   }], [{

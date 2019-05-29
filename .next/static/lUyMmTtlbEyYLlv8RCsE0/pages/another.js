@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["ebad"],{"289L":function(n,e,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/another",function(){var n=t("L2M0");return{page:n.default||n}}])},L2M0:function(n,e,t){"use strict";t.r(e);var a=t("q1tI"),o=t.n(a);e.default=function(){return o.a.createElement("p",null,"another page")}}},[["289L","5d41","9da1"]]]);

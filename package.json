@@ -3,10 +3,9 @@
   "version": "2.0.0",
   "main": "server.js",
   "scripts": {
-    "dev": "node server.js",
-    "build": "./node_modules/next/dist/bin/next build",
-    "heroku-postbuild": "./node_modules/next/dist/bin/next build",
-    "start": "node server.js"
+    "dev": "node server.js -p $PORT",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT"
   },
   "engines": {
     "node": "10.x"
